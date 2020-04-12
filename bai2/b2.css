@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 250px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.image {
+    background-image: url('iphone.png');
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    margin: auto;
+    position: relative;
+}
+
+#giamgia1 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: white;
+    background-color: green;
+}
+
+#hot {
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: white;
+    background-color: red;
+}
+
+p {
+    text-align: center;
+}
+
+.giagoc {
+    color: red;
+    text-decoration: line-through;
+    text-align: left;
+}
+
+.giamgia2 {
+    text-align: left;
+    color: red;
+}

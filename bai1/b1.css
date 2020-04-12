@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    border: 1px solid black;
+    width: 500px;
+}
+
+.image {
+    height: 500px;
+    width: 500px;
+    background-image: url('dog.jpg');
+    background-size: cover;
+    position: relative;
+    box-sizing: border-box;
+}
+
+#giamgia1 {
+    position: absolute;
+    background-color: #FBDDB3;
+    bottom: 0px;
+}
+
+p {
+    font-size: 30px;
+}
+
+#giagoc {
+    text-decoration: line-through;
+}
+
+#giamgia2 {
+    color: red;
+}
