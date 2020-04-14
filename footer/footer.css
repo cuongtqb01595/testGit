@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Roboto Medium;
+    src: url('../Roboto/Roboto-Medium.ttf');
+}
+
+@font-face {
+    font-family: Roboto Regular;
+    src: url('../Roboto/Roboto-Regular.ttf');
+}
+
+.main {
+    width: 70%;
+    margin: auto;
+}
+
+.container-footer {
+    width: 69%;
+    height: auto;
+    overflow: auto;
+    position: absolute;
+    bottom: 50px;
+}
+
+.logo-footer {
+    float: left;
+    width: 30%;
+}
+
+.lienket-footer {
+    width: 30%;
+    float: left;
+}
+
+.lienhe-footer {
+    width: 40%;
+    float: left;
+}
+
+.text-logo {
+    font-family: Roboto Medium;
+    color: #8DC946;
+    font-size: 30px;
+    margin: 5px;
+}
+
+.lienket {
+    height: 30px;
+}
+
+span {
+    font-size: 15px;
+    color: #000000a6;
+}
+
+i {
+    font-size: 13px;
+}
+
+.lienhe-logo {
+    text-align: center;
+    border: 1px solid #0000003b;
+    width: 29px;
+    height: 29px;
+    border-radius: 50%;
+    float: left;
+}
+
+.lienhe-logo i {
+    font-size: 15px;
+    padding-top: 7px;
+    color: #0000003b
+}
